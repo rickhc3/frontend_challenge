@@ -1,0 +1,12 @@
+version: "3"
+services:
+  front:
+    platform: linux/x86_64
+    build: .\
+    container_name: frontend_challenge
+    restart: always
+    ports:
+      - "4005:7000"
+    volumes:
+      - .\:/app 
+      - /app/node_modules
