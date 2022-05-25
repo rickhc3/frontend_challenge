@@ -59,5 +59,7 @@ export default {
 
   publicRuntimeConfig: {
     supabasekey : process.env.NUXT_ENV_SUPA_BASE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpydWdmYW94bnRsd2dscHF2bnZ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTMwODQzMTQsImV4cCI6MTk2ODY2MDMxNH0.9DpV_FR1FILeDAqdRF2vpqECqz19ju73VlBtjA1s-Qo',
-  }
+  },
+
+  target: 'static',
 }
